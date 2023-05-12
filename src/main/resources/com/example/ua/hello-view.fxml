@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2e3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="77.0" prefHeight="323.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Button layoutX="300.0" layoutY="213.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" text="Вхід">
+               <font>
+                  <Font name="Ink Free" size="16.0" />
+               </font>
+            </Button>
+            <TextField layoutX="269.0" layoutY="105.0" prefWidth="176.0" promptText="Логін" style="-fx-background-color: #fafafa;">
+               <font>
+                  <Font name="Ink Free" size="18.0" />
+               </font>
+            </TextField>
+            <PasswordField layoutX="270.0" layoutY="150.0" promptText="Пароль" style="-fx-background-color: #fafafa;">
+               <font>
+                  <Font name="Ink Free" size="18.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="270.0" layoutY="40.0" text="Авторизація" textFill="#eeff00">
+               <font>
+                  <Font name="Ink Free" size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="69.0" layoutY="24.0" text="Ukrainian Chat" textFill="#eeff00">
+         <font>
+            <Font name="Ink Free" size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="543.0" layoutY="14.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="142.0" style="-fx-background-color: #eeff00;" text="Реєстрація" textFill="#0099ff">
+         <font>
+            <Font name="Ink Free" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
