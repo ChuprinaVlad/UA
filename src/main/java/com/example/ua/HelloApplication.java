@@ -15,6 +15,8 @@ public class HelloApplication extends Application {
         stage.setTitle("Urainian Chat");
         stage.setScene(scene);
         stage.show();
+
+        System.out.println();
     }
 
     public static void main(String[] args) {
